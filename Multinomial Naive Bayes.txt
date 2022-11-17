@@ -1,0 +1,6 @@
+1 Multinomial Naive Bayes
+2 from sklearn.naive_bayes import MultinomialNB
+3 mn = MultinomialNB()
+4 mn.fit(X_vec, y_train)
+5 y_pred = mn.predict(Xt_vect)
+6 y_pred
